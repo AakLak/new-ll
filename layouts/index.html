@@ -1,0 +1,79 @@
+<html lang="en">
+
+{{ partial "header.html" . }} {{ partial "nav.html" . }}
+
+
+
+
+<body>
+  <!-- Button trigger modal -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body text-center">
+        <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UkwxvKzVk0E" allowfullscreen></iframe>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-teal" style="height:65vh;">
+    <div class="container">
+      <div class="hero">
+        <h1 class="text-center white">More than personal training,<br>
+A custom plan to crush your goals!</h1>
+        </br>
+
+        {{/*
+        <p class="text-center grey">Living Lean is a combianed fitness and meal program, tailed to your needs</p> */}}
+
+      </div>
+
+    </div>
+    <p class="text-center bold white video-text">
+      <button type="button" class="btn btn-primary bold" data-toggle="modal" data-target="#exampleModal">
+<i class="far fa-play-circle"></i> Watch our feature
+</button> on KRON4 news to learn more!
+    </p>
+  </div>
+
+
+  {{/* FEATURES BAR */}}
+  <div class="container-fluid feature-bar">
+    <div class="row text-center">
+      <div class="col-sm">
+        <img src="/img/dumbbell.png" class="temp-weight-fix"></img>
+        <p class="bold">Private or Group Classes</p>
+      </div>
+
+      <div class="col-sm">
+        <img src="/img/apple_red.png" class="temp-weight-fix"></img>
+        <p class="bold">Easy to Follow Meal Plans</p>
+      </div>
+
+      <div class="col-sm">
+        <img src="/img/star-icon.png" class="temp-weight-fix"></img>
+        <p class="bold">Proven Results</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

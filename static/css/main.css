@@ -1,0 +1,67 @@
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.yellow {
+  color: #FBBC09;
+}
+
+.bg-yellow {
+  background-color: #FBBC09;
+}
+
+.teal {
+  color: #25BEA1;
+}
+
+.bg-teal {
+  background-color: #25BEA1;
+}
+
+.navbar-nav .nav-link{
+  font-size:18px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.grey {
+  color: #333333;
+}
+
+.bg-grey {
+  background-color: #333333;
+}
+
+.hero > h1{
+  font-weight: 700;
+  font-size: 50px;
+}
+
+
+.bold{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.feature-bar{
+  margin-top: -10%;
+}
+.temp-weight-fix{
+  max-height: 250px;
+  padding-bottom: 7%;
+  padding-top: 2%
+}
+
+/*Add Mobile Breakpoint*/
+.video-text{
+  position: relative;
+   top: 50%;
+}
