@@ -83,7 +83,7 @@ p.card-text{
 }
 
 .card-body{
-  min-height: 17.5em;
+  min-height: 20em;
 }
 
 .form-control{
@@ -104,4 +104,12 @@ p.card-text{
 
 .fw7{
   font-weight: 700;
+}
+
+.testimonial-container{
+  padding-top:2.5%;
+}
+
+.shadow{
+      box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
 }
