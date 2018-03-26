@@ -32,6 +32,14 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: white;
 }
 
+.light-grey {
+  color: #F7F8FA;
+}
+
+.bg-light-grey {
+  background-color: #F7F8FA;
+}
+
 .grey {
   color: #333333;
 }
@@ -40,11 +48,10 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: #333333;
 }
 
-.hero > h1{
-  font-weight: 700;
+.heroh1{
+  font-weight: 700 !important;
   font-size: 50px;
 }
-
 
 .bold{
   font-weight: 700;
@@ -52,7 +59,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .feature-bar{
-  margin-top: -10%;
+  margin-top: -8%;
 }
 .temp-weight-fix{
   max-height: 250px;
@@ -63,5 +70,38 @@ p, h1, h2, h3, h4, h5, h6 {
 /*Add Mobile Breakpoint*/
 .video-text{
   position: relative;
-   top: 50%;
+}
+
+p.card-text{
+  font-size: 20px;
+}
+
+.card-img {
+  max-height: 15rem;
+  max-width: 100%;
+  width: initial;
+}
+
+.card-body{
+  min-height: 17.5em;
+}
+
+.form-control{
+  font-size: 22px;
+}
+
+.wave{
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIyMjJweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0zMjAgMjhjMzIwIDAgMzIwIDg0IDY0MCA4NCAxNjAgMCAyNDAtMjEgMzIwLTQydjcwSDBWNzBjODAtMjEgMTYwLTQyIDMyMC00MnoiLz48L2c+PC9zdmc+);
+   background-size: 100% 222px;
+   bottom: 0;
+   height: 13em;
+   background-color: #5cbfa1;
+}
+
+.btn-huge{
+  padding:1em 2em;
+}
+
+.fw7{
+  font-weight: 700;
 }

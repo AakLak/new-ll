@@ -3,70 +3,271 @@
 {{ partial "header.html" . }} {{ partial "nav.html" . }}
 
 
-
-
 <body>
-  <!-- Button trigger modal -->
-
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        </div>
-        <div class="modal-body text-center">
-        <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UkwxvKzVk0E" allowfullscreen></iframe>
-</div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="bg-teal" style="height:65vh;">
+  <div class="container-fluid bg-teal" style="height:50vh;">
     <div class="container">
       <div class="hero">
-        <h1 class="text-center white">More than personal training,<br>
+        <h1 class="text-center white heroh1">More than personal training,<br>
 A custom plan to crush your goals!</h1>
-        </br>
-
-        {{/*
-        <p class="text-center grey">Living Lean is a combianed fitness and meal program, tailed to your needs</p> */}}
+        <p class="text-center bold white video-text">
+          <button type="button" class="btn btn-primary bold" data-toggle="modal" data-target="#exampleModal">
+      ► Watch our feature
+      </button> on KRON4 news to learn more!
+        </p>
 
       </div>
 
     </div>
-    <p class="text-center bold white video-text">
-      <button type="button" class="btn btn-primary bold" data-toggle="modal" data-target="#exampleModal">
-► Watch our feature
-</button> on KRON4 news to learn more!
-    </p>
+
+    <div style="height: 8vh;"></div>
+
+    <div class="container" style="max-width:50%">
+      <div class="row text-center">
+        <div class="col-sm">
+          <button type="button" class="btn btn-warning btn-huge bold">SIGN UP NOW</button>
+        </div>
+      </div>
+
+        <div style="height: 8vh;"></div>
+
+      <div class="row text-center">
+        <div class="col-sm">
+        <h1 class="white" style="display:inline-flex">Rated &nbsp;<div class="yellow">★★★★★</div>'s</h1>
+        <p class="white">
+          Click to View:<br />
+          <b>Lafayette:</b> <a class="white"href="https://www.google.com/search?q=Living%20Lean%203125%20Camino%20Diablo%20Lafayette,%20CA%2094549&ludocid=9120269680595873156#lrd=0x80856225b8cf42e7:0x7e91b4f407aead84,1,,,">Google</a> | <a class="white" href="https://www.yelp.com/biz/living-lean-lafayette">Yelp</a>
+          <br>
+          <b>Orinda</b>: <a class="white"href="https://www.google.com/search?q=Living+Lean,+2+Orinda+Theatre+Square+%23140,+Orinda,+CA+94563&ludocid=14893274412380497864#lrd=0x80857d2933a838b3:0xceaf8a2b8c5aa7c8,1,,,">Google</a> | <a class="white" href="https://www.yelp.com/biz/living-lean-orinda-2">Yelp</a>
+        </p>
+      </div>
+    </div>
+    </div>
+
+  </div>
+  <div class="container-flud wave">
   </div>
 
 
-  {{/* FEATURES BAR */}}
-  <div class="container-fluid feature-bar">
+  <!-- {{ partial "features_bar.html" . }} -->
+
+  <div class="container-fluid" style="width:80%">
     <div class="row text-center">
       <div class="col-sm">
-        <img src="/img/dumbbell.png" class="temp-weight-fix"></img>
-        <p class="bold">Private or Group Classes</p>
+      <h1 class="heroh1">What is the Living Lean Program?</h1>
+    </div>
+    </div>
+<br><br>
+  <div class="container-fluid" style="width:60%">
+    <div class="row">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="/img/dumbbell.png" / class="card-img">
+              </div>
+              <div class="col-md-8">
+                <div class="card-block">
+                  <h3 class="card-title fw7">Private Personal Training</h3>
+                  <p class="card-text">We start with a customized plan that's tailored to meet your goals. We keep workouts engaing with our fullly equiped, modern gym.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+    </div>
+
+<br>
+
+<div class="row">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="card-block">
+                <h3 class="card-title fw7">Easy to Follow Meal Plans</h3>
+                <p class="card-text">Fitness doesn't stop at the gym, what you put into your body is just as important! </p>
+              </div>
+
+
+            </div>
+            <div class="col-md-4">
+            <img src="/img/apple_red.png" / class="card-img">
+            </div>
+
+          </div>
+        </div>
+      </div>
+</div>
+<br>
+<div class="row">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="/img/star-icon.png" / class="card-img">
+            </div>
+            <div class="col-md-8">
+              <div class="card-block">
+                <h3 class="card-title fw7">Encouragement & Motivation</h3>
+                <p class="card-text">We start with a customized plan tailed to meet your goals. We keep workings engaing with our fullly equiped, modern gym.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </div>
 
-      <div class="col-sm">
-        <img src="/img/apple_red.png" class="temp-weight-fix"></img>
-        <p class="bold">Easy to Follow Meal Plans</p>
+  </div>
+</div>
+  </div>
+  </div>
+
+
+  <!-- {{/* TESTIMONAILS */}} -->
+  <div class="bg-light-grey">
+    <div class="container-fluid" style="width:90%">
+      <div class="row text-center">
+        <div class="col-sm">
+          <h1 class="heroh1">Real Living Lean Success Stories</h1>
+        </div>
       </div>
 
-      <div class="col-sm">
-        <img src="/img/star-icon.png" class="temp-weight-fix"></img>
-        <p class="bold">Proven Results</p>
+      <div class="row align-items-center">
+        <div class="col-md">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="https://i.imgur.com/cd2w7vy.jpg" / class="card-img">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-block">
+                    <h5 class="card-title bold">Arash Azarkish<div class='yellow'><p>
+                  ★★★★★
+                </p></div></h5>
+                    <p class="card-text">Sheena desined a program that worked around my fatty-liver disease, and dropped my bodyfat from 35% to 23%.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="https://i.imgur.com/KUHLlbc.png" / class="card-img">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-block">
+                    <h5 class="card-title bold">Victoria Selway<div class='yellow'><p>
+                      ★★★★★
+                    </p></div></h5>
+                    <p class="card-text">Being at my heaviest weight with my wedding around the corner was stressful. The Living Lean program helped me lose 30lbs of fat and 4 dress sizes, all in time for my big day! </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <br />
+
+
+
+      <div class="row align-items-center">
+        <div class="col-md">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="http://livingleanprogram.com/wp-content/uploads/2016/12/Page-1-Image-2-2.png" / class="card-img">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-block">
+                    <h5 class="card-title bold">Katie Rawson<div class='yellow'><p>
+                      ★★★★★
+                    </p></div></h5>
+                    <p class="card-text"> Working from home and a milestone birthday had caught up with me. The Living Lean trainers created an easy to stick to meal & workout plan, which helped me lose 20lbs, over 50% of my bodyfat!</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="http://livingleanprogram.com/wp-content/uploads/2016/12/Page-4-Image-9.png" / class="card-img">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-block">
+                    <h5 class="card-title bold">Neil Cohn<div class='yellow'><p>
+                          ★★★★★
+                        </p></div></h5>
+                    <p class="card-text">I dropped my bodyfat in half from 25% to 12.5%! Sheena’s energy, passion, and knowledge helped me to accomplish something in 3-4 months that I’ve been trying to do my whole adult life.</p>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+  <br><br><br><br>
+
+  <div class="bg-light-grey">
+    <div class="container-fluid" style="width:50%">
+      <div class="row text-center">
+        <div class="col-sm">
+          <h1 class="heroh1">Contact Us 📞</h1>
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" id="" placeholder="Name">
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="What fitness goals can we help you acheive?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+
+        </div>
       </div>
     </div>
   </div>
-  </div>
+
+  <section>
+    <div class="container">
+
+    </div>
+  </section>
+
 
 
   <!-- Optional JavaScript -->
@@ -74,6 +275,7 @@ A custom plan to crush your goals!</h1>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  {{ partial "video-modal.html" . }}
 </body>
 
 </html>
