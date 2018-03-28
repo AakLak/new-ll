@@ -10,7 +10,7 @@
 
 }
 p.card-text{
-  font-size:15px !important;
+  font-size:15px;
 }
 
 .card-body {
@@ -31,7 +31,7 @@ p.card-text{
   }
 
   .features-section{
-    widows: 85% !important;
+    width: 85% !important;
   }
 }
 
@@ -51,18 +51,29 @@ p.card-text{
 
 }
 p.card-text{
-  font-size:15px !important;
+  font-size:15px;
 }
 
 .card-body {
   min-height: 14em !important;
 }
+.features-section{
+  width: 85% !important;
+}
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   h1{
     font-size: 50px;
+  }
+
+  .features-section{
+    width: 50% !important;
+  }
+  p.card-text{
+    font-size: 20px;
   }
 
 }
@@ -75,6 +86,14 @@ p.card-text{
   .contact-section{
     width:75%
   }
+
+  .features-section{
+    width: 50% !important;
+  }
+
+  p.card-text{
+    font-size: 20px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -86,6 +105,15 @@ p.card-text{
   .contact-section{
     width:75%
   }
+
+  .features-section{
+    width: 50% !important;
+  }
+
+  p.card-text{
+    font-size: 20px;
+  }
+  
 }
 
 .heroh1{
@@ -170,10 +198,6 @@ p, h1, h2, h3, h4, h5, h6 {
 /*Add Mobile Breakpoint*/
 .video-text{
   position: relative;
-}
-
-p.card-text{
-  font-size: 20px;
 }
 
 .card-img {
