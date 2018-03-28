@@ -47,6 +47,10 @@ p.card-text{
   .card-img{
     max-height: 6rem;
   }
+
+  .feature-card-img{
+    max-height: 6rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -84,6 +88,10 @@ p.card-text{
 }
 .card-img{
   max-height: 17rem;
+}
+
+.feature-card-img{
+  max-height: 10rem;
 }
 
 }
