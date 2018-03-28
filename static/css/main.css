@@ -1,9 +1,107 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 20px;
+  }
+
+  h3{
+    font-size:17px;
+  }
+
+}
+p.card-text{
+  font-size:15px !important;
+}
+
+.card-body {
+  min-height: 14em !important;
+}
+
+  .bold{
+    font-size: 15px;
+}
+
+  .wave{
+     background-size: 100% 8em !important;
+     height: 8em !important;
+  }
+
+  .hero-section{
+    height:65vh;
+  }
+
+  .features-section{
+    widows: 85% !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  h1{
+    font-size: 30px;
+  }
+
+  .bold{
+    font-size: 15px;
+  }
+
+  h3{
+    font-size:17px;
+  }
+
+}
+p.card-text{
+  font-size:15px !important;
+}
+
+.card-body {
+  min-height: 14em !important;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  h1{
+    font-size: 50px;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  h1{
+    font-size: 50px;
+  }
+  .contact-section{
+    width:75%
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  .heroh1{
+    font-size: 50px;
+  }
+  .contact-section{
+    width:75%
+  }
+}
+
+.heroh1{
+  font-weight: 700 !important;
+}
+
 p, h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
 }
 
 .yellow {
   color: #FBBC09;
+}
+
+.features-sectio{
+  width:50%;
 }
 
 .bg-yellow {
@@ -56,14 +154,8 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: #333333;
 }
 
-.heroh1{
-  font-weight: 700 !important;
-  font-size: 50px;
-}
-
 .bold{
   font-weight: 700;
-  font-size: 20px;
 }
 
 .feature-bar{
@@ -101,8 +193,8 @@ p.card-text{
 .wave{
   background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIyMjJweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0zMjAgMjhjMzIwIDAgMzIwIDg0IDY0MCA4NCAxNjAgMCAyNDAtMjEgMzIwLTQydjcwSDBWNzBjODAtMjEgMTYwLTQyIDMyMC00MnoiLz48L2c+PC9zdmc+);
    background-size: 100% 222px;
-   bottom: 0;
    height: 13em;
+   bottom: 0;
    background-color: #25BEA1;
 }
 

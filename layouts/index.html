@@ -1,10 +1,11 @@
 <html lang="en">
 
-{{ partial "header.html" . }} {{ partial "nav.html" . }}
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
 
 
 <body>
-  <div class="container-fluid bg-teal" style="height:50vh;">
+  <div class="container-fluid bg-teal hero-section">
     <div class="container">
       <div class="hero">
         <h1 class="text-center white heroh1">More than personal training,<br>
@@ -22,7 +23,7 @@ A custom plan to crush your goals!</h1>
 
     <div style="height: 8vh;"></div>
 
-    <div class="container" style="max-width:50%">
+    <div class="container">
       <div class="row text-center">
         <div class="col-sm">
           <button type="button" class="btn btn-warning btn-huge bold shadow">SIGN UP NOW</button>
@@ -32,7 +33,7 @@ A custom plan to crush your goals!</h1>
       <div style="height:8vh"></div>
 
       <div class="row text-center">
-        <div class="col-sm">
+        <div class="col-sm text">
           <h1 class="white" style="display:inline-flex">Rated &nbsp;<div class="yellow">★★★★★</div>'s</h1>
           <p class="white">
             Click to View:<br />
@@ -63,16 +64,16 @@ A custom plan to crush your goals!</h1>
     </div>
 
 
-    <div class="container-fluid" style="width:50%">
+    <div class="container-fluid features-section">
 
       <div class="row py-4">
         <div class="card shadow-grey">
           <div class="card-body">
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-4">
                 <img src="/img/dumbbell.png" / class="card-img">
               </div>
-              <div class="col-md-8">
+              <div class="col-8">
                 <div class="card-block">
                   <h3 class="card-title fw7">1. Private Personal Training</h3>
                   <p class="card-text">We start with a customized plan that's tailored to meet your goals. We keep workouts engaing with our fullly equiped, modern gym.</p>
@@ -92,14 +93,14 @@ A custom plan to crush your goals!</h1>
           <div class="card-body">
             <div class="row">
 
-              <div class="col-md-8">
+              <div class="col-8">
                 <div class="card-block">
                   <h3 class="card-title fw7">2. Easy to Follow Meal Plans</h3>
                   <p class="card-text">Fitness doesn't stop at the gym, what you put into your body is just as important! </p>
                 </div>
               </div>
 
-              <div class="col-md-4">
+              <div class="col-4">
                 <img src="/img/apple_red.png" / class="card-img">
               </div>
 
@@ -115,10 +116,10 @@ A custom plan to crush your goals!</h1>
         <div class="card shadow-yellow">
           <div class="card-body">
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-4">
                 <img src="/img/star-icon.png" / class="card-img">
               </div>
-              <div class="col-md-8">
+              <div class="col-8">
                 <div class="card-block">
                   <h3 class="card-title fw7">3. Encouragement & Motivation</h3>
                   <p class="card-text">We start with a customized plan tailed to meet your goals. We keep workings engaing with our fullly equiped, modern gym.</p>
@@ -242,14 +243,14 @@ A custom plan to crush your goals!</h1>
     </div>
   </div>
 
-  <div class="container-fluid pt-5" style="width:50%">
-    <div class="row text-center">
-      <div class="col-sm py-0">
+  <div class="container-fluid py-5 contact-section">
+    <div class="row text-center py-5">
+      <div class="col-sm">
         <p class="purp mb-0" style="font-size:24px">
           Ready to get started?
         </p>
         <h1 class="heroh1 purp">We'd love to hear from you!</h1>
-        <div class="container-fluid" style="width:75%">
+        <div class="container-fluid py-2" style="">
           <form class="pt-4">
             <div class="form-row">
               <div class="form-group col-md-6">
@@ -262,25 +263,75 @@ A custom plan to crush your goals!</h1>
             <div class="form-group">
               <textarea class="form-control form-input" id="exampleFormControlTextarea1" rows="3" placeholder="What fitness goals can we help you acheive?"></textarea>
             </div>
-            <button type="submit" class="btn bg-purp white bold shadow py-4 px-4">Email Sheena</button>
+            <button type="submit" class="btn bg-purp white bold shadow btn-huge">Email Sheena</button>
           </form>
 
-          <h1 class="heroh1 purp mb-0">
-            Or
-          </h1>
+          <h1 class="heroh1 purp py-4">Or</h1>
 
-          <button class="btn bg-purp white bold shadow py-2 px-4">Call Sheena <br /> 📞 (209)627-5373</button>
+          <button class="btn bg-purp white bold shadow btn-huge">📞 (209) 627-5373</button>
+          <p class="purp pt-2" style="font-size:14px">
+            Click to call Sheena
+          </p>
 
         </div>
       </div>
     </div>
   </div>
 
-  <section>
-    <div class="container">
+  <div class="container-fluid bg-light-grey py-4">
+    <div class="row text-center purp">
+       <div class="col-sm" >
+          <p class="fw7" style="font-size:26px"> Contact </p>
+         <p style="font-size:20px;">
+           Sheena_Lakhotia@yahoo.com </p>
 
-    </div>
-  </section>
+          <p class="py-1" style="font-size:20px;">
+           📞 (209) 627-5373
+         </p>
+       </div>
+       <div class="col-sm">
+         <p class="fw7" style="font-size:26px;">
+           Locations
+         </p>
+         <p style="font-size:20px;">
+           📍 2 Orinda Theatre Square #140
+           <br /> Orinda, CA 94563
+         <div class="py-1"></div>
+         <p style="font-size:20px;">
+           📍 3125 Camino Diablo
+           <br /> Lafayette, CA 94549
+         </p>
+       </div>
+       <div class="col-sm">
+         <div class="fw7" style="font-size:26px;">
+           <div class="yellow"style="display:inline">★★★★★</div> Ratings</div>
+           <div class="pb-2">
+
+           </div>
+           <div class="bold pb-4" style="display:inline;font-size:20px;">
+             Orinda:
+           </div>
+          <p style="font-size:20px;display:inline;">
+            Google - Yelp
+          </p>
+          <div class="py-2">
+
+          </div>
+           <div class="bold" style="display:inline;font-size:20px">
+             Lafayette:
+           </div>
+           <p style="font-size:20px;display:inline">
+             <a class="purp" href="https://www.google.com/search?q=Living%20Lean%203125%20Camino%20Diablo%20Lafayette,%20CA%2094549&ludocid=9120269680595873156#lrd=0x80856225b8cf42e7:0x7e91b4f407aead84,1,,,">Google</a>
+             |
+             <a class="purp"
+               href="https://www.yelp.com/biz/living-lean-lafayette">Yelp</a>
+           </p>
+           <p class="purp pt-2" style="font-size:14px">
+             Click to see reviews!
+           </p>
+       </div>
+     </div>
+  </div>
 
 
 
