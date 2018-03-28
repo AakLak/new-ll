@@ -10,6 +10,14 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: #FBBC09;
 }
 
+.purp {
+  color: #374e97;
+}
+
+.bg-purp {
+  background-color: #374e97;
+}
+
 .teal {
   color: #25BEA1;
 }
@@ -112,4 +120,39 @@ p.card-text{
 
 .shadow{
       box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+}
+
+.shadow-grey{
+  box-shadow: 0 5px 15px 0 rgb(62, 61, 66);
+}
+
+.shadow-red{
+      box-shadow: 0 5px 15px 0 rgb(207, 81, 44);
+}
+
+.shadow-yellow{
+  box-shadow: 0 5px 15px 0 rgb(241, 197, 49)
+}
+
+.form-input{
+  background-color:#eae9e5;
+  border: none;
+  color: #374e97;
+}
+
+.form-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #374e97;
+}
+.form-input::-moz-placeholder { /* Firefox 19+ */
+  color: #374e97;
+}
+.form-input:-ms-input-placeholder { /* IE 10+ */
+  color: #374e97;
+}
+.form-input:-moz-placeholder { /* Firefox 18- */
+  color: #374e97;
+}
+
+button.btn.bg-purp.white.bold.shadow:hover {
+    background-color: #283a72;
 }
