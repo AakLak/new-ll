@@ -77,7 +77,7 @@ p.card-text{
 }
 
 .card-body {
-  min-height: 18em;
+  min-height: 12em;
 }
 
 .features-section{
@@ -165,7 +165,7 @@ p.card-text{
   }
 
   .card-body{
-    min-height: 23em;
+    min-height: 18em;
   }
 
 }
@@ -199,7 +199,7 @@ p.card-text{
   }
 
   .card-body{
-    min-height: 19em;
+    min-height: 15em;
   }
 
 }
