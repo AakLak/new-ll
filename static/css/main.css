@@ -36,6 +36,11 @@ p.card-text{
   .landing-spacer{
     height: 6vh;
   }
+
+  .nav-logo{
+    max-height: 6vh;
+  }
+  
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -86,7 +91,9 @@ p.card-text{
   .landing-spacer{
     height: 8vh;
   }
-
+  .nav-logo{
+    max-height: 6vh;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -108,6 +115,9 @@ p.card-text{
 
   .landing-spacer{
     height: 10vh;
+  }
+  .nav-logo{
+    max-height: 6vh;
   }
 
 }
