@@ -34,7 +34,7 @@ p.card-text{
     width: 100% !important;
   }
   .landing-spacer{
-    height: 6vh;
+    height: 8vh;
   }
 
   .nav-logo{
@@ -82,6 +82,10 @@ p.card-text{
 
 .features-section{
   width: 100% !important;
+}
+
+.hero-section{
+  height:65vh;
 }
 
 .landing-spacer{
