@@ -31,7 +31,7 @@ p.card-text{
   }
 
   .features-section{
-    width: 85% !important;
+    width: 100% !important;
   }
   .landing-spacer{
     height: 6vh;
@@ -61,7 +61,7 @@ p.card-text{
   min-height: 14em !important;
 }
 .features-section{
-  width: 85% !important;
+  width: 100% !important;
 }
 
 .landing-spacer{
