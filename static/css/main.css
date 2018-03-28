@@ -10,7 +10,7 @@
 
 }
 p.card-text{
-  font-size:15px;
+  font-size:17px;
 }
 
 .card-body {
@@ -43,6 +43,10 @@ p.card-text{
   .contact-container{
     width: 100%;
   }
+
+  .card-img{
+    max-height: 6rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -61,7 +65,7 @@ p.card-text{
 
 }
 p.card-text{
-  font-size:15px;
+  font-size:17px;
 }
 
 .card-body {
@@ -77,6 +81,10 @@ p.card-text{
 .contact-container{
   width: 85%;
 }
+.card-img{
+  max-height: 6rem;
+}
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -100,6 +108,10 @@ p.card-text{
   }
   .contact-container{
     width: 75%;
+  }
+
+  .card-img{
+    max-height: 15rem;
   }
 }
 
@@ -131,6 +143,10 @@ p.card-text{
     width: 75%;
   }
 
+  .card-img{
+    max-height: 15rem;
+  }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -157,6 +173,10 @@ p.card-text{
   .contact-container{
     width: 75%;
   }
+  .card-img{
+    max-height: 15rem;
+  }
+
 }
 
 .heroh1{
@@ -244,7 +264,6 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .card-img {
-  max-height: 15rem;
   max-width: 100%;
   width: initial;
 }
@@ -314,4 +333,8 @@ p, h1, h2, h3, h4, h5, h6 {
 
 button.btn.bg-purp.white.bold.shadow:hover {
     background-color: #283a72;
+}
+
+.navbar-nav .nav-link{
+  color: white;
 }
