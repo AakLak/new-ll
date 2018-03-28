@@ -51,6 +51,10 @@ p.card-text{
   .feature-card-img{
     max-height: 6rem;
   }
+
+  .contact-header{
+    font-size:40px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
