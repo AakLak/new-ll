@@ -40,7 +40,9 @@ p.card-text{
   .nav-logo{
     max-height: 6vh;
   }
-  
+  .contact-container{
+    width: 100%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -72,7 +74,9 @@ p.card-text{
 .landing-spacer{
   height: 8vh;
 }
-
+.contact-container{
+  width: 85%;
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -93,6 +97,9 @@ p.card-text{
   }
   .nav-logo{
     max-height: 6vh;
+  }
+  .contact-container{
+    width: 75%;
   }
 }
 
@@ -120,6 +127,10 @@ p.card-text{
     max-height: 6vh;
   }
 
+  .contact-container{
+    width: 75%;
+  }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -143,7 +154,9 @@ p.card-text{
   .landing-spacer{
     height: 10vh;
   }
-
+  .contact-container{
+    width: 75%;
+  }
 }
 
 .heroh1{
